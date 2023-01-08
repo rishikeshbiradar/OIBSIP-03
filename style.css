@@ -1,0 +1,98 @@
+body
+{
+    background-image: url(background_image6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Heading */
+h1
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Home Page  */
+.container
+{
+    background-image: url(background_image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 250px;
+    width: 52%;
+    margin:10px auto;
+    border-radius: 20px;
+    padding-top: 10px;  
+    border:1px solid rgb(54, 54, 179);
+}
+
+/* Adding Input */
+.note
+{
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px; 
+}
+#noteInput
+{
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 15px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#noteButton
+{
+    background-color: black;
+    color:blueviolet;
+    font-weight: bold;
+    border: 1px solid rgb(54, 54, 179);
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;    
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Printing List */
+#addNote
+{
+    background-color:white ;
+    color:black;
+    height: 40px;
+    border: 2px solid black;
+    margin: 15px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.deleteNote
+{
+    background-color: black;
+    color:blueviolet;
+    font-weight: bold;
+    border: 1px solid rgb(54, 54, 179);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;    
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Footer */
+footer
+{
+    padding: 20px;
+    font-family:sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
